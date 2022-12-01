@@ -4,63 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plugo Gestão</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Gestão plugo</title>
 </head>
-<style>
-    body{
-        background-color: black;
-        color: #4693f8;
-        text-align: center;
-        font-family: sans-serif;
-    }
-    main{
-        background-color: white;
-        margin: auto;
-        display: block;
-        width: 900px;
-        height: auto;
-    }
-    iframe{
-        width: 800px;
-        height: 500px;
-        border: 1px solid black;
-    }
-   
+<body>
+    <main>
+        <div id="titulo">Gestão</div>
 
-
-</style>
-<main>
-    <div class="titulo"><h1>Gestão plugo</h1></div>
-    <div id="planilha">
-        <div class="conteudo">
-            <h1 class="titulo">Entradas Novembro</h1>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSzBexAhGKExXl-IDY6r6DiJTkEgSNpaYkFhyuYAbS71g_GWEyVSt7z2NEMRMMe0c39YZogOarz0gDm/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <div id="flex">
+            <a href="entradas.html" target="tela"><button class="botoes">Entradas</button></a>
+            <a href="saida.html" target="tela"><button class="botoes">Saidas</button></a>
+            <a href="vendas.html" target="tela"><button class="botoes">Vendas</button></a>
+            <a href="gastos.html" target="tela"><button class="botoes">Gastos</button></a>
+            <a href="compras.html" target="tela"><button class="botoes">Compras</button></a>
+            <a href="produtos.html" target="tela"><button class="botoes">Produtos</button></a>
         </div>
+        <iframe src="" id="tela" name="tela" frameborder="0"></iframe>
+        <footer>
+            <p>PlugoBR</p>
+        </footer>
+    </main>
 
-        <div class="conteudo">
-            <h1 class="titulo">Vendas a prazo Novembro</h1>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_4r4uBxo-SUOhjnrX1SkXnELmu6i3MbKIJSbyzI-aqBQi3Js3ooorlMczRfFBZJeffO0f04VYHRGc/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-        </div>
     
-
-
-    <div>
-            <h1>Vendas novembro</h1>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSt5MXA33TGb_wkq6dVuoY_rjb50BqCT9G1bSsk3FTzrR6VvtpTiIGA3eqE00ltyuoBx1jw8HsIWvRw/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" id="vendas"></iframe>
-    </div>
-
-    <div >
-        <h1>Saidas novembro</h1>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6mwUCEzvWULMzEIQS6NOxtm2PElQa64aTESDs8g3hLNuo-2AYqP8eXzWrIdQIJqpSNKxbWaThX8_K/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-    </div>
-
-    <div>
-        <h1>Tabela de preço plugo</h1>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_mKJMtcQyCTadVSA3bqOumeS0UgibPqdIhJpsBRGSdGUGh1LddGPppnJ_QNm9bwMG8nSkkP7Rvjal/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-    </div>
-
-</main>
-
-
 </body>
 </html>
