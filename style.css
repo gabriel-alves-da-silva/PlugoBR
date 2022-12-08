@@ -3,6 +3,13 @@
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family= Roboto + Slab:wght@100;200;300 & display=swap');
+
+:root{
+    ---cor-principal: #006cc4;
+    ---fonte:'Roboto Slab', serif;
+
+}
 
 body{
     background-color: black;
@@ -14,12 +21,12 @@ main{
     width: 820px;
     height: auto;
     position: relative;
-    background-color: white;
+    background-color: #ffffffd9;
     border-radius: 10px 0px 10px;
 }
 #titulo{
     text-align: center;
-    color: rgb(0, 108, 196);
+    color: var(---cor-principal);
     font-size: 43px;
     margin-top: 30px;
 }
@@ -33,10 +40,10 @@ main{
 .botoes{
     margin-top: 35px;
     padding: 2px;
-    color: rgb(0, 108, 196);;
+    color:  var(---cor-principal);
 }
 .botoes:hover{
-    background-color:rgb(188, 225, 255); ;
+    background-color:#ffffffd9;
 }
 
 iframe{
@@ -46,6 +53,7 @@ iframe{
     height: 331px;;
 }
 footer{
-    color: rgb(0, 80, 146);
+    color: var(---cor-principal);
     font-size: 14px;
 }
+ 
