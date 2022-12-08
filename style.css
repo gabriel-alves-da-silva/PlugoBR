@@ -24,8 +24,7 @@ main{
     margin-top: 30px;
 }
 #flex{
-    width: 400px;
-
+    width: 541px;
     margin: auto;
     display: flex;
     flex-direction: row;
