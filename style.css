@@ -9,7 +9,7 @@
 
 
 :root{
-    ---cor-principal: #006cc4;
+    ---cor-principal: #175ee2;
     
 }
 
@@ -27,10 +27,30 @@ main{
     background-color: #ffffffd9;
     border-radius: 10px 0px 10px;
 }
+nav{
+    background-color: antiquewhite;
+    margin: auto;
+    text-align: center;
+    display: block;
+    max-width: 541px;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav > a{
+    color: var(---cor-principal);
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 4px;
+    padding: 5px;
+}
+nav > a:hover{
+    color: #00BFB2;
+    transition: 0,95s;
+
+}
 #titulo{
     text-align: center;
     color: var(---cor-principal);
-    
     font-size: 43px;
     margin-top: 30px;
 }
@@ -45,9 +65,12 @@ main{
     margin-top: 35px;
     padding: 2px;
     color:  var(---cor-principal);
+    border-radius: 2px;
 }
 .botoes:hover{
-    background-color:#ffffffd9;
+    background-color:#00BFB2;
+    border-radius: 3px;
+    
 }
 
 iframe{
