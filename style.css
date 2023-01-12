@@ -1,19 +1,22 @@
+
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family= Roboto + Slab:wght@100;200;300 & display=swap');
+
 
 :root{
     ---cor-principal: #006cc4;
-    ---fonte:'Roboto Slab', serif;
-
+    
 }
 
 body{
     background-color: black;
-    font-family: sans-serif;
+    font-family: 'Prosto One';
+    
 }
 main{
     display: block;
@@ -27,6 +30,7 @@ main{
 #titulo{
     text-align: center;
     color: var(---cor-principal);
+    
     font-size: 43px;
     margin-top: 30px;
 }
